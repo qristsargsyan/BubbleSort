@@ -13,9 +13,12 @@ namespace BubbleSorting
             int[] arr = new int[10] { 15, 12, 3, 17, 189, 10, 36, 45, 33, 5 };
             int temp;
             Console.Write("Unsorted array: ");
-            for (int i = 0; i < arr.Length - 1; i++)
+            for (int i = 0; i < arr.Length; i++)
             {
                 Console.Write(arr[i] + " ");
+            } 
+            for (int i = 0; i < arr.Length - 1; i++)
+            {                
                 for (int j = 0; j < arr.Length - 1; j++)
                 {
                     if (arr[j] > arr[j + 1])
