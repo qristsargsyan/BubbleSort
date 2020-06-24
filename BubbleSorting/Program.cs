@@ -17,7 +17,7 @@ namespace BubbleSorting
             {
                 Console.Write(arr[i] + " ");
             } 
-            for (int i = 0; i < arr.Length - 1; i++)
+            for (int i = 0; i < arr.Length; i++)
             {                
                 for (int j = 0; j < arr.Length - 1; j++)
                 {
